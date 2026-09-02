@@ -1,13 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #35302d;
+  --foreground: #ebebeb;
+  --dark-grey: #242120;
+  --nav-button: #33ec99;
+  --nav-button-hover: #1cb47291;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-nav-button: var(--nav-button);
+  --color-nav-button-hover: var(--nav-button-hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -22,5 +27,38 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .heading-one {
+    @apply text-[36px] lg:text-[48px] text-center font-extralight tracking-[1.5rem] bg-clip-text text-transparent invert;
+  }
+
+  .heading-two {
+    @apply text-[36px] font-semibold;
+  }
+
+  .heading-three {
+    @apply text-[18px] lg:text-[24px] font-semibold;
+  }
+
+  .paragraph {
+    @apply text-[14px];
+  }
+
+  .paragraph-bold {
+    @apply text-[14px] font-semibold;
+  }
+
+  .paragraph-sm {
+    @apply text-[10px];
+  }
+
+  .info-text {
+    @apply text-[12px] font-light;
+  }
+
+  .nav-button {
+    @apply px-4 py-2 font-bold text-center hover:text-nav-button transition-colors duration-300 border rounded-xl cursor-pointer;
+  }
 }
