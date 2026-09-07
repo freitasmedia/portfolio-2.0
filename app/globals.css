@@ -31,7 +31,7 @@ body {
 
 @layer components {
   .heading-one {
-    @apply text-[36px] lg:text-[48px] text-center font-extralight tracking-[1.5rem] bg-clip-text text-transparent invert;
+    @apply text-[36px] lg:text-[48px] text-center font-extralight tracking-[1.5rem] bg-clip-text text-transparent;
   }
 
   .heading-two {
