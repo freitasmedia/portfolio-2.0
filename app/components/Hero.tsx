@@ -8,12 +8,12 @@ export const Hero = () => (
     <div className="absolute inset-0 top-60 md:top-30 flex items-center justify-center">
       <h3 className="heading-three">
         Contact{" "}
-        <a
+        <Link
           href="/#hotels"
           className="text-nav-button hover:text-nav-button-hover transition-color duration-300"
         >
           me
-        </a>
+        </Link>
       </h3>
     </div>
   </section>

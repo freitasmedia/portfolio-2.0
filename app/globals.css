@@ -11,6 +11,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-dark-grey: var(--dark-grey);
   --color-nav-button: var(--nav-button);
   --color-nav-button-hover: var(--nav-button-hover);
   --font-sans: var(--font-geist-sans);
