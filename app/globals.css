@@ -32,31 +32,31 @@ body {
 
 @layer components {
   .heading-one {
-    @apply text-[36px] lg:text-[48px] text-center font-extralight tracking-[1.5rem] bg-clip-text text-transparent;
+    @apply text-[38px] lg:text-[52px] text-center font-extralight tracking-[1.5rem] bg-clip-text text-transparent;
   }
 
   .heading-two {
-    @apply text-[36px] font-semibold;
+    @apply text-[38px] font-semibold;
   }
 
   .heading-three {
-    @apply text-[18px] lg:text-[24px] font-semibold;
+    @apply text-[24px] lg:text-[28px] font-semibold;
   }
 
   .paragraph {
-    @apply text-[14px];
+    @apply text-[18px];
   }
 
   .paragraph-bold {
-    @apply text-[14px] font-semibold;
+    @apply text-[18px] font-semibold;
   }
 
   .paragraph-sm {
-    @apply text-[10px];
+    @apply text-[16px];
   }
 
   .info-text {
-    @apply text-[12px] font-light;
+    @apply text-[16px] font-light;
   }
 
   .nav-button {
