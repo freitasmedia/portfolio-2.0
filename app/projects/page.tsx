@@ -5,8 +5,14 @@ export default function ProjectsPage() {
     <>
       <h1 className="heading-one text-nav-button">Projects</h1>
 
-      <div className="grid justify-items-center grid-cols-3 gap-4 pt-4">
-        <div className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2">
+      <div
+        id="projectRowContainer"
+        className="grid justify-items-center grid-cols-3 gap-4 pt-4"
+      >
+        <div
+          id="projectCard"
+          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2"
+        >
           <h3 className="heading-three">The Library</h3>
           <div className="relative group">
             <p className="paragraph m-2">
@@ -25,7 +31,10 @@ export default function ProjectsPage() {
             Next.js • React • TypeScript • MongoDB • Fetch
           </span>
         </div>
-        <div className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2">
+        <div
+          id="projectCard"
+          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2"
+        >
           <h3 className="heading-three">The Zoo</h3>
           <p className="paragraph">
             A Next.js/React app that displays animals from an API, featuring a
@@ -33,7 +42,7 @@ export default function ProjectsPage() {
             saved in localStorage.
           </p>
           <Image
-            src="/theZoo.png"
+            src="/theZoo1.png"
             alt="The Zoo"
             width={600}
             height={1200}
@@ -43,26 +52,42 @@ export default function ProjectsPage() {
             Next.js • React • TypeScript • localStorage • Fetch
           </span>
         </div>
-        <div className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2">
+        <div
+          id="projectCard"
+          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2"
+        >
           <h3 className="heading-three">React Resort</h3>
           <p className="paragraph">
             A group project app for managing a resort, featuring room booking,
             customer management, and bookings.
           </p>
+          <Image
+            src="/reactResort1.png"
+            alt="The Zoo"
+            width={600}
+            height={1200}
+            className="w-full h-80 object-contain rounded-lg"
+          />
           <span className="info-text text-nav-button">
             Next.js • React • TypeScript • Fetch
           </span>
         </div>
       </div>
-      <div className="grid justify-items-center grid-cols-3 gap-4 pt-4">
-        <div className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2">
+      <div
+        id="projectRowContainer"
+        className="grid justify-items-center grid-cols-3 gap-4 pt-4"
+      >
+        <div
+          id="projectCard"
+          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2"
+        >
           <h3 className="heading-three">Candyrat</h3>
           <p className="paragraph">
             A group e-commerce project with focus on UI and shopping cart logic.
             I made the navbar and shopping cart functionality.
           </p>
           <Image
-            src="/g-home-d.png"
+            src="/godis1.png"
             alt="Candyrat"
             width={600}
             height={1200}
@@ -72,13 +97,16 @@ export default function ProjectsPage() {
             HTML • CSS • TypeScript
           </span>
         </div>
-        <div className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2">
+        <div
+          id="projectCard"
+          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2"
+        >
           <h3 className="heading-three">To Do</h3>
           <p className="paragraph">
             Task manager with localStorage and dynamic UI updates.
           </p>
           <Image
-            src="/t-home.png"
+            src="/toDo.png"
             alt="To Do"
             width={600}
             height={1200}
@@ -88,7 +116,10 @@ export default function ProjectsPage() {
             HTML • CSS • TypeScript
           </span>
         </div>
-        <div className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2">
+        <div
+          id="projectCard"
+          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2"
+        >
           <h3 className="heading-three">Race Shop</h3>
           <p className="paragraph">
             I made the design for a motorcycle parts e-commerce platform.
