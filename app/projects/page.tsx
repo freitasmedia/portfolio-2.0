@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import ImageCarousel from "../components/ImageCarousel";
 
 export default function ProjectsPage() {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
@@ -172,12 +173,18 @@ export default function ProjectsPage() {
                   state management saved in localStorage.
                 </p>
 
-                <Image
-                  src="/theZoo6.png"
-                  alt="The Zoo"
-                  width={600}
-                  height={1200}
-                  className="w-full max-h-[500px] object-contain rounded-lg mt-6"
+                <ImageCarousel
+                  images={[
+                    "/theZoo2.png",
+                    "/theZoo3.png",
+                    "/theZoo4.png",
+                    "/theZoo5.png",
+                    "/theZoo6.png",
+                    "/theZoo7.png",
+                    "/theZoo8.png",
+                    "/theZoo1.png",
+                  ]}
+                  alt="The Library"
                 />
 
                 <Link
@@ -209,12 +216,14 @@ export default function ProjectsPage() {
                   booking, customer management, and bookings.
                 </p>
 
-                <Image
-                  src="/reactResort2.png"
+                <ImageCarousel
+                  images={[
+                    "/reactResort2.png",
+                    "/reactResort3.png",
+                    "/reactResort4.png",
+                    "/reactResort1.png",
+                  ]}
                   alt="React Resort"
-                  width={600}
-                  height={1200}
-                  className="w-full max-h-[500px] object-contain rounded-lg mt-6"
                 />
 
                 <Link
@@ -246,12 +255,9 @@ export default function ProjectsPage() {
                   logic. I made the navbar and shopping cart functionality.
                 </p>
 
-                <Image
-                  src="/godis2.png"
-                  alt="Candy Rat"
-                  width={600}
-                  height={1200}
-                  className="w-full max-h-[500px] object-contain rounded-lg mt-6"
+                <ImageCarousel
+                  images={["/godis2.png", "/godis1.png"]}
+                  alt="Candyrat"
                 />
 
                 <Link
