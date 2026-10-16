@@ -4,8 +4,8 @@
   --background: #35302d;
   --foreground: #ebebeb;
   --dark-grey: #242120;
-  --nav-button: #33ec99;
-  --nav-button-hover: #1cb47291;
+  --nav-button: #d9d24c;
+  --nav-button-hover: #9c962a;
 }
 
 @theme inline {
@@ -60,6 +60,6 @@ body {
   }
 
   .nav-button {
-    @apply px-4 py-2 font-bold text-center hover:text-nav-button transition-colors duration-300 border rounded-xl cursor-pointer;
+    @apply px-6 py-2 font-bold text-center hover:text-nav-button transition-colors duration-300 border rounded-full cursor-pointer;
   }
 }

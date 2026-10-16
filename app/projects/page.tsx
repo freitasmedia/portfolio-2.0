@@ -11,9 +11,9 @@ export default function ProjectsPage() {
     <>
       <h1 className="heading-one text-nav-button">Projects</h1>
 
-      <div className="grid justify-items-center grid-cols-3 gap-4 pt-4">
+      <div className="grid grid-cols-1 justify-items-center gap-4 pt-4 sm:grid-cols-2 lg:grid-cols-3">
         <div
-          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2 cursor-pointer"
+          className="my-2 w-full cursor-pointer rounded-xl bg-dark-grey/50 p-4 shadow-xl sm:m-2 sm:w-auto"
           onClick={() => setSelectedProject("library")}
         >
           <h3 className="heading-three">The Library</h3>
@@ -31,7 +31,7 @@ export default function ProjectsPage() {
           </span>
         </div>
         <div
-          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2 cursor-pointer"
+          className="my-2 w-full cursor-pointer rounded-xl bg-dark-grey/50 p-4 shadow-xl sm:m-2 sm:w-auto"
           onClick={() => setSelectedProject("zoo")}
         >
           <h3 className="heading-three">The Zoo</h3>
@@ -48,7 +48,7 @@ export default function ProjectsPage() {
           </span>
         </div>
         <div
-          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2 cursor-pointer"
+          className="my-2 w-full cursor-pointer rounded-xl bg-dark-grey/50 p-4 shadow-xl sm:m-2 sm:w-auto"
           onClick={() => setSelectedProject("reactResort")}
         >
           <h3 className="heading-three">React Resort</h3>
@@ -65,9 +65,9 @@ export default function ProjectsPage() {
           </span>
         </div>
       </div>
-      <div className="grid justify-items-center grid-cols-3 gap-4 pt-4">
+      <div className="grid grid-cols-1 justify-items-center gap-4 pt-4 sm:grid-cols-2 lg:grid-cols-3">
         <div
-          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2 cursor-pointer"
+          className="my-2 w-full cursor-pointer rounded-xl bg-dark-grey/50 p-4 shadow-xl sm:m-2 sm:w-auto"
           onClick={() => setSelectedProject("candyrat")}
         >
           <h3 className="heading-three">Candyrat</h3>
@@ -84,7 +84,7 @@ export default function ProjectsPage() {
           </span>
         </div>
         <div
-          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2 cursor-pointer"
+          className="my-2 w-full cursor-pointer rounded-xl bg-dark-grey/50 p-4 shadow-xl sm:m-2 sm:w-auto"
           onClick={() => setSelectedProject("toDo")}
         >
           <h3 className="heading-three">To Do</h3>
@@ -101,7 +101,7 @@ export default function ProjectsPage() {
           </span>
         </div>
         <div
-          className="bg-dark-grey/50 p-4 rounded-xl shadow-xl m-2 cursor-pointer"
+          className="my-2 w-full cursor-pointer rounded-xl bg-dark-grey/50 p-4 shadow-xl sm:m-2 sm:w-auto"
           onClick={() => setSelectedProject("raceShop")}
         >
           <h3 className="heading-three">Race Shop</h3>
@@ -130,7 +130,7 @@ export default function ProjectsPage() {
           >
             <button
               onClick={() => setSelectedProject(null)}
-              className="absolute top-4 right-4 cursor-pointer"
+              className="absolute top-4 right-4 cursor-pointer hover:text-red-400"
             >
               X
             </button>
@@ -197,7 +197,7 @@ export default function ProjectsPage() {
                 </Link>
 
                 <Link
-                  href="https://github.com/freitasmedia/theZoo"
+                  href="https://zoo-nine-delta.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-button mt-6 inline-block"
@@ -227,21 +227,12 @@ export default function ProjectsPage() {
                 />
 
                 <Link
-                  href="https://github.com/freitasmedia/ReactResor"
+                  href="https://github.com/freitasmedia/ReactResort"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-button mt-6 inline-block mr-2"
                 >
                   Github
-                </Link>
-
-                <Link
-                  href="https://github.com/freitasmedia/ReactResor"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="nav-button mt-6 inline-block"
-                >
-                  Demo
                 </Link>
               </>
             )}
@@ -297,7 +288,7 @@ export default function ProjectsPage() {
                 </Link>
 
                 <Link
-                  href="https://github.com/freitasmedia/todos"
+                  href="https://todos-three-lac.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-button mt-6 inline-block"

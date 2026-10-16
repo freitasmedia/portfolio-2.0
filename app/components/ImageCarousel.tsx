@@ -32,14 +32,14 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
           />
           <button
             onClick={previousImage}
-            className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-700"
+            className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 rounded-lg p-2 text-foreground hover:text-nav-button"
             aria-label="Previous Image"
           >
             <ChevronLeft size={20} />
           </button>
           <button
             onClick={nextImage}
-            className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-700"
+            className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 rounded-lg p-2 text-foreground hover:text-nav-button"
             aria-label="Next Image"
           >
             <ChevronRight size={20} />
