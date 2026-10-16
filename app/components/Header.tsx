@@ -16,9 +16,6 @@ export const Header = () => (
       <Link href="/contact" className="nav-button">
         Contact
       </Link>
-      <Link href="/cv" className="nav-button">
-        CV
-      </Link>
     </nav>
   </header>
 );

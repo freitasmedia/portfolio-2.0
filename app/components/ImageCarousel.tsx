@@ -22,27 +22,27 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
   return (
     <>
       <div className="mt-6 w-full">
-        <div className="relative flex min-h-[450px] w-full items-center justify-center px-12">
+        <div className="relative flex min-h-[250px] w-full items-center justify-center px-12">
           <Image
             src={images[currentIndex]}
             alt={`${alt} - bild ${currentIndex + 1}`}
             width={1200}
             height={800}
-            className="h-auto max-h-[650px] w-auto max-w-full rounded-lg object-contain"
+            className="h-auto max-h-[450px] w-auto max-w-full rounded-lg object-contain"
           />
           <button
             onClick={previousImage}
-            className="absolute left-0 top-1/2 -translate-y-1/2 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-700"
+            className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-700"
             aria-label="Previous Image"
           >
-            <ChevronLeft size={24} />
+            <ChevronLeft size={20} />
           </button>
           <button
             onClick={nextImage}
-            className="absolute right-0 top-1/2 -translate-y-1/2 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-700"
+            className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 rounded-lg bg-gray-900 p-2 text-white hover:bg-gray-700"
             aria-label="Next Image"
           >
-            <ChevronRight size={24} />
+            <ChevronRight size={20} />
           </button>
         </div>
         <p className="mt-3 text-center text-sm">
