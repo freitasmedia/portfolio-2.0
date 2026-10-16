@@ -18,7 +18,7 @@ export const Hero = () => (
 
     <div className="w-full max-w-7xl">
       <div className="relative z-10 max-w-2xl">
-        <h1 className="heading-one text-nav-button text-[clamp(1.25rem,7vw,2.25rem)] sm:text-4xl md:text-5xl lg:text-6xl tracking-[clamp(0.1rem,calc(2vw_-_0.3rem),1.5rem)] whitespace-nowrap">
+        <h1 className="heading-one text-nav-button text-[clamp(1.25rem,4vw,3.5rem)] sm:text-4xl md:text-5xl lg:text-6xl tracking-[clamp(0.1rem,calc(1vw_-_0.1rem),1rem)] whitespace-nowrap">
           Frontend Developer
         </h1>
 
