@@ -140,9 +140,9 @@ export default function ProjectsPage() {
                 <h2 className="heading-two">The Library</h2>
 
                 <p className="paragraph mt-4">
-                  A Next.js/React app that can search for books and add them to
-                  your own reading-list, using MongoDB to keep your reading-list
-                  saved.
+                  A Next.js/React app where you can search for books and add
+                  them to your own reading-list using MongoDB to keep your
+                  reading-list saved.
                 </p>
 
                 <Image
@@ -267,7 +267,8 @@ export default function ProjectsPage() {
                 <h2 className="heading-two">To Do</h2>
 
                 <p className="paragraph">
-                  Task manager with localStorage and dynamic UI updates.
+                  My first task during my education, a task manager with
+                  localStorage and dynamic UI updates.
                 </p>
 
                 <Image
