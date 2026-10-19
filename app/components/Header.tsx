@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Power } from "lucide-react";
 
 export const Header = () => (
