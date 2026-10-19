@@ -1,12 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+import { Power } from "lucide-react";
 
 export const Header = () => (
   <header className="lg:h-19 py-5 lg:py-0 px-10 flex justify-between items-center gap-10 lg:gap-0 bg-dark-grey">
-    <Link
-      href="/"
-      className="w-20 hover:scale-105 transition-transform duration-300"
-    >
-      <p>Daniel de Freitas</p>
+    <Link href="/" className="hover:text-[#d9d24c]">
+      <Power size={24} />
     </Link>
 
     <nav className="flex flex-col lg:flex-row gap-2 lg:gap-10">
